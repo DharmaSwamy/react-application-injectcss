@@ -28,6 +28,7 @@ export default class InjectCssApplicationCustomizer
         customStyle.href = cssUrl;
         customStyle.rel = "stylesheet";
         customStyle.type = "text/css";
+        // add inject the style sheet
         head.insertAdjacentElement("beforeEnd", customStyle);
     }
 
